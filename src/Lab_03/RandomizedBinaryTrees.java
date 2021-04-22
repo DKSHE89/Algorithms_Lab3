@@ -22,9 +22,6 @@ public class RandomizedBinaryTrees <Key extends Comparable,Val> extends Abstract
 
 	protected RNode root;
 	
-	public int height() {// get the height of a BST
-		return height(root);
-	}
 
 	private int height(Node x) {// calculate the height of BST
 		int z = 0;
