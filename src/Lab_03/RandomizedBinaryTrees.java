@@ -7,7 +7,6 @@ import Lab_03.BinarySearchTree.Node;
 
 public class RandomizedBinaryTrees <Key extends Comparable,Val> extends AbstractST <Key,Val> implements Iterable<Key>  {
 	
-	//Test
 	protected class Node{
 		Key key;
 		Val val;
