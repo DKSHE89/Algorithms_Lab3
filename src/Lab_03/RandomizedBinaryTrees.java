@@ -5,8 +5,6 @@ import java.util.Stack;
 
 import Lab_03.BinarySearchTree.Node;
 
-
-//Test
 public class RandomizedBinaryTrees <Key extends Comparable,Val> extends AbstractST <Key,Val> implements Iterable<Key>  {
 	
 	protected class Node{
