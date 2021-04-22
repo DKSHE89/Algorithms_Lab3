@@ -58,6 +58,7 @@ public class RandomizedBinaryTrees <Key extends Comparable,Val> extends Abstract
 		}
 	}
 	
+	//Test
 	private Node rotR ( Node h)
 	{
 		Node x = h.left ;
